@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{height:100%;}
+
+._Container{
+    display:flex;
+    flex-direction: column;
+    background-color: darkgreen;
+    height: 1%;
+}
+._Center{
+    display: flex;
+    background-color: rgb(118, 187, 118);
+    height: 416px;
+}
+._Header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+._Footer{
+    background-color: darkgreen;
+}
